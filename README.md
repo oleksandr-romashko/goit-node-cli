@@ -3,7 +3,7 @@
 #### goit-node-cli
 
 <p align="center">
-  <img align="center" src="./assets/thumbnail.jpg" width="480" title="Project thumbnail" alt="project thumbnail">
+  <img align="center" src="./assets/thumbnail.jpg" width="720" title="Project thumbnail" alt="project thumbnail">
 </p>
 
 
