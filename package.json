@@ -2,7 +2,8 @@
   "name": "goit-node-cli",
   "version": "1.0.0",
   "description": "Command-line application to store and manage your contacts.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/oleksandr-romashko/goit-node-cli/issues"
   },
-  "homepage": "https://github.com/oleksandr-romashko/goit-node-cli#readme"
+  "homepage": "https://github.com/oleksandr-romashko/goit-node-cli#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "nanoid": "^5.0.7"
+  }
 }
