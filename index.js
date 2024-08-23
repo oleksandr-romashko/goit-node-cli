@@ -86,7 +86,7 @@ async function invokeAction({ action, ...data }) {
         break;
       }
       case ACTIONS_LIST.REMOVE: {
-        const removedContact = await db.removeContact(data.id);
+        const removedContact = await db.removeContactById(data.id);
         console.log(removedContact);
         break;
       }
